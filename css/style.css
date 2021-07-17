@@ -19,10 +19,6 @@ body {
     color: #212529;
 }
 
-.icon-title {
-    font-size: 0.8em !important;
-}
-
 .color-blue-dark {
     color: #102d4e !important;
 }
@@ -31,12 +27,12 @@ body {
     color: #102d4e !important;
 }
 
-.color-red-dark {
-    color: #cf3633 !important;
-}
-
 .all-w {
     width: 100%;
+}
+
+.container {
+    padding-bottom: 10em;
 }
 
 
@@ -115,10 +111,6 @@ h6 {
     box-shadow: 0em 0em 5px 1px #102d4e;
 }
 
-.border-dashed-t {
-    border-top: 2px #0e2d4e dashed;
-}
-
 .border-dashed-l {
     border-left: 2px #0e2d4e dashed;
 }
@@ -138,11 +130,42 @@ h6 {
 
 /* Fin: Estilos tarjetas dashboard */
 
+
+/* Inicio : Scrollbar */
+
+.custom-scrollbar-js,
+.custom-scrollbar-css {
+    height: 500px;
+}
+
+.custom-scrollbar-css {
+    overflow-y: scroll;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar {
+    width: 0.65em;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar-thumb {
+    border-radius: 0px 0px 4px 4px;
+    background-image: linear-gradient(to top, #1b75bb 0%, #112d4e 100%);
+}
+
+
+/* Fin : Scrollbar */
+
 footer {
     margin-top: 2em;
     background-color: #112d4e !important;
     color: white !important;
     padding: 3em;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 
 footer>h5>a {
