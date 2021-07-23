@@ -1,0 +1,172 @@
+/* Tipografía contenido */
+
+@font-face {
+    font-family: "Fuente-Esteban-Contenido";
+    src: url("../fonts/Mithella-Regular.otf");
+}
+
+
+/* Tipografía titulo */
+
+@font-face {
+    font-family: "Fuente-Esteban-Titulo";
+    src: url("../fonts/Friendly-Schoolmates.otf");
+}
+
+body {
+    font-family: "Fuente-Esteban-Contenido";
+    font-size: 1em;
+    color: #212529;
+}
+
+.color-blue-dark {
+    color: #102d4e !important;
+}
+
+.background-blue-dark {
+    color: #102d4e !important;
+}
+
+.all-w {
+    width: 100%;
+}
+
+.container {
+    padding-bottom: 6rem;
+}
+
+
+/* Inicio : NavBar */
+
+.nav-black {
+    background-color: #112d4e !important;
+}
+
+header>nav>a {
+    font-family: "Fuente-Esteban-Titulo";
+}
+
+header>nav>a,
+header>nav>div>ul>li>a,
+header>nav>div>span {
+    color: white !important;
+}
+
+header>nav>a:hover {
+    color: #dcd6f7 !important;
+}
+
+header>nav>div>ul>li>a:hover {
+    color: #a6b1e1 !important;
+}
+
+
+/* Fin : NavBar */
+
+
+/* Inicio : Tamaño Letra */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Fuente-Esteban-Titulo";
+    color: #212529;
+}
+
+h1,
+h2,
+h3 {
+    font-size: 4em;
+}
+
+h4,
+h5 {
+    font-size: 2em;
+}
+
+h5>a {
+    font-weight: 400;
+    color: #102d4e;
+    text-decoration: none !important;
+}
+
+h6 {
+    font-size: 1.6em;
+}
+
+
+/* Fin : Tamaño Letra */
+
+
+/* Estilos tarjetas dashboard */
+
+.card-title-course {
+    padding: 0.2em 0px 0px 0.6em;
+}
+
+.shadow-blue-dark {
+    box-shadow: 0em 0em 5px 1px #102d4e;
+}
+
+.border-dashed-l {
+    border-left: 2px #0e2d4e dashed;
+}
+
+.border-dashed-r {
+    border-right: 2px #0e2d4e dashed;
+}
+
+.border-dashed-b {
+    border-bottom: 2px #0e2d4e dashed;
+}
+
+.border-none {
+    border: none !important;
+}
+
+
+/* Fin: Estilos tarjetas dashboard */
+
+
+/* Inicio : Scrollbar */
+
+.custom-scrollbar-css {
+    height: 500px;
+}
+
+.custom-scrollbar-css {
+    overflow-y: scroll;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar {
+    width: 0.65em;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar-thumb {
+    border-radius: 0px 0px 4px 4px;
+    background-image: linear-gradient(to top, #1b75bb 0%, #112d4e 100%);
+}
+
+
+/* Fin : Scrollbar */
+
+footer {
+    margin-top: 2em;
+    background-color: #112d4e !important;
+    color: white !important;
+    padding: 0.5rem 0rem 0rem 1rem;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer>h5>a {
+    color: white;
+}
