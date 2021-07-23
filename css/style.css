@@ -32,7 +32,7 @@ body {
 }
 
 .container {
-    padding-bottom: 10em;
+    padding-bottom: 6rem;
 }
 
 
@@ -133,7 +133,6 @@ h6 {
 
 /* Inicio : Scrollbar */
 
-.custom-scrollbar-js,
 .custom-scrollbar-css {
     height: 500px;
 }
@@ -162,7 +161,7 @@ footer {
     margin-top: 2em;
     background-color: #112d4e !important;
     color: white !important;
-    padding: 3em;
+    padding: 0.5rem 0rem 0rem 1rem;
     position: fixed;
     bottom: 0px;
     width: 100%;
